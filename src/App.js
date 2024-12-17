@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import LoginPage from './Components/Login-Page/LoginPage';
 function App() {
