@@ -1,10 +1,15 @@
 import './App.css';
-import LoginPage from './Components/Login-Page/LoginPage';
+import { BrowserRouter, Route } from 'react-router-dom'
+import LoginPage from './Components/LoginPage';
+import QuoteListingPage  from './Components/QuoteListingPage';
+import QuoteCreationPage from './Components/QuoteCreationPage';
 function App() {
   return (
-    <div className="App">
-      <LoginPage/>
-    </div>
+    <BrowserRouter>
+    <Route exact path = '/' component={LoginPage}/>
+    <Route  path = '/quote-list' component={QuoteListingPage}/>
+    <Route  path = '/quote-create' component={QuoteCreationPage}/>
+    </BrowserRouter>
   );
 }
 
