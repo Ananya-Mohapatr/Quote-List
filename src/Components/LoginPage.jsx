@@ -25,7 +25,7 @@ const LoginPage = () => {
   }
   return (
     <>
-    {showLoader && <img className='loader' src={loaderImg}/>}
+    {showLoader && <img className='loader' src={loaderImg} alt='Loading...'/>}
     <div className="login-page-container">
       <div className="login-box">
         <h2>Login</h2>
