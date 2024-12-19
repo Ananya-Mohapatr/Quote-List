@@ -12,10 +12,7 @@ This is a project on Quote Listisng Page.
 - With node version 18, install the node modules using command - 'npm install'
 - After successfull node_modules installation, run 'npm start' in the terminal .
 
-
-# Additional Package installed for CSS
- Tailwind CSS is used for styling throughout the project
-## Available Scripts
+# Available Scripts
 
 In the project directory, you can run:
 
